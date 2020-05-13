@@ -1,9 +1,10 @@
+
 # logic-accessibility
 Here are accessibility issues for VoiceOver users.
 Version: Logic Pro X 10.5
 
 ## Bugs
-
+---
 ### Record enable in track header 
 When you check record enable for an audio track, VO (Voice Over) reports the status as checked only when the indicator is flashing. Thus VO says sometimes checked sometimes not checked even though the track is record enabled. If it's enabled, VO should report as checked all time.
 
@@ -69,7 +70,7 @@ It's being investigated by VO users, but at least it's not easily found how to d
 If there's no way to do that now, it would be great to be able to do it similar to EXS24 in future updates. 
  
 ### Suggestions
-
+---
 ### Record enable
 When you press control+r, VO just says "toggle track record enable". It would be nice to say on or off status just like how VO now announces mute and solo status when pressing m or s. 
  
