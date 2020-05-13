@@ -1,8 +1,3 @@
----
-layout: default
-comments: true
----
-
 Below you can find known accessibility issues on Logic for VoiceOver users.
 
 This webpage is not associated with Apple any way. This is simply to track of issues that VoiceOver users discover while using Logic Pro.
@@ -160,7 +155,6 @@ It's Same for input, send, insert, and so on.
 ---
 
 ## Comments
-{% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
 
@@ -177,6 +171,3 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
-                            
-{% endif %}
