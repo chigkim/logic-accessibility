@@ -37,21 +37,16 @@ In track header, VO can tell you which one is groove track, but you can't reassi
 ### Selection report 
 VO can't tell which regions/tracks are selected.
 
-It would be nice if you can toggle track/region selection with vo+space instead of Logic automatically selecting whichever VO cursor lands on. 
+In either very early logic or garage band, it used to say either "selected region name" if selected or just "region name" when not selected. 
 
-In either very early logic or garage band, you could toggle a selection with vo+space on a region, and it used to say either "selected region name" if selected or just "region name" when not selected. 
-
-### Non-contiguous selection 
-VO users can only select regions (with shift+left/right) and tracks (with shift+up/down) that are next to each other. 
-
-If the selection behavior works as described above, it would address this problem as well. 
+When multiple tracks are selected, it would be nice to indicate how many tracks are selected in the inspector how it does for regions.
 
 ### Playhead announcement 
 It's great that VO announces the playhead location when playhead moves. However it is very distracting to hear playhead position whenever you play/stop especially when you try to do fine audio editing such as finding particular syllable from vocal track, attack of instrument, and so on.
 
-It makes it hard to pinpoint exact audio spot when VO keeps chattering playhead position against audio playback. It would be even ok if it announces when it stops, but not when it starts playing. 
+It makes it hard to pinpoint exact audio spot when VO keeps chattering playhead position against audio playback.
 
-Maybe the playhead should be only announced when user manually move it with key commands like rewind/forward, rewind/forward by transient, rewind/forward by division, go to left/right locator, go to next/previous marker, and so on. 
+It should announce the position when it stops, but not when it starts playing.
 
 ### Flex pitch/time 
 Even though we can enable flex time/pitch and apply to a track. VO users have very limited capability of editing them. 
