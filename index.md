@@ -109,7 +109,7 @@ Right now shift+space plays from the selection, but you can't confirm where the 
 You can move to selection end with control+end, but it would be nice to be able to confirm by listening the audio as well.
 
 ### Only allow VO to edit track/region name either after pressing vo+space or interact with the name
-When VO cursor lands on a text field such as track name, the focus sometimes stays there even though you stop interact with header and go somewhere else.
+When VO cursor lands on a text field such as track name, the keyboard focus sometimes stays there even though you stop interact with header and go somewhere else.
 
 This causes users to edit the name when pressing x to open mixer, e for open editor, and so on. You can easily end up with track name xe by mistake.
 
