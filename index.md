@@ -151,3 +151,6 @@ It's Same for input, send, insert, and so on.
 * Insert: "Channel eq" as value, "Plugin" as label, "group" as role. Then it should read "Channel EQ Plugin Group" 
 * Send: "Bus 1" as value, "Send" as label, "group" as role. Then it'll read "bus 1 send group". 
 
+
+<script defer src="https://cdn.commento.io/js/commento.js"></script>
+<div id="commento"></div>
