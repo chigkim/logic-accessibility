@@ -1,8 +1,13 @@
+---
+layout: default
+comments: true
+---
+
 Below you can find known accessibility issues on Logic for VoiceOver users.
 
 This webpage is not associated with Apple any way. This is simply to track of issues that VoiceOver users discover while using Logic Pro.
 
-If you find more issues, please [comment below](#commento). It will be added to the list when verified.
+If you find more issues, please [comment below](#disqus). It will be added to the list when verified.
 
 Version: Logic Pro X 10.5
 
@@ -155,5 +160,23 @@ It's Same for input, send, insert, and so on.
 ---
 
 ## Comments
-<script defer src="https://cdn.commento.io/js/commento.js"></script>
-<div id="commento"></div>
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+
+var disqus_config = function () {
+this.page.url = 'https://chigkim.github.io/logic-accessibility/';
+this.page.identifier = '#logicaccessibility';
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://logic-accessibility.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+                            
+{% endif %}
