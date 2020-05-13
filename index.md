@@ -99,9 +99,9 @@ When a track has no group assigned, it says "off group group" in inspector.
 ### VoiceOver Item chooser is broken in plugin window
 When you bring up item chooser from a plugin window with control view, VO only gives few parameters instead of all parameters.
 
-Since the item chooser is broken, VO users are forced to go through hundreds of items inside the table to locate parameters.
+For example in Archemy, VO users are forced to spend more than 10 minutes to go through hundreds of items inside the table to locate a parameter to turn off a feature in certain cases.
 
-It's is crutial to let VO users to quickly locate specific parameter by searching. Otherwise in certain cases, VO users are forced to spend more than 10 minutes to find a parameter to turn off a feature.
+It's is crutial to let VO users to quickly locate specific parameter by searching.
 
 ## Suggestions
 ---
