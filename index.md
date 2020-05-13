@@ -94,6 +94,11 @@ In both mixer and inspector, group control always has the word "Off" even though
 
 When a track has no group assigned, it says "off group group" in inspector.
 
+### VoiceOver Item chooser is broken in plugin window
+When you bring up item chooser from a plugin window with control view, VO only gives few parameters instead of all the parameters.
+
+Since the item chooser is broken, VO users are forced to go through hundreds of items to locate parameters.
+
 ## Suggestions
 ---
 ### Record enable
