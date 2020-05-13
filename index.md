@@ -63,11 +63,6 @@ This forces VO users to keep interacting with the slider in order to make furthe
 ### Midi environment 
 In midi environment window, there are many unlabeled UI elements. 
 
-### Group
-In both mixer and inspector, group control always has the word "Off" even though assigned group is on.
-
-When a track has no group assigned, it says "off group group" in inspector.
-
 ### Project start marker
 VO can't move project start marker in the tracks ruler. It simply appears as a button instead of slider.
 
@@ -90,7 +85,15 @@ In EXS24, VO users were able to edit zones, group, and many properties in edit w
 It's being investigated by VO users, but at least it's not easily found how to do it.
 
 If there's no way to do that now, it would be great to be able to do it similar to EXS24 in future updates. 
- 
+
+### Send
+In inspector, send control has the word "button" in label, so it says "button" twice once from label again from role type. It says "send button button." 
+  
+ ### Group
+In both mixer and inspector, group control always has the word "Off" even though assigned group is on.
+
+When a track has no group assigned, it says "off group group" in inspector.
+
 ## Suggestions
 ---
 ### Record enable
@@ -139,6 +142,3 @@ It's Same for input, send, insert, and so on.
 * Insert: "Channel eq" as value, "Plugin" as label, "group" as role. Then it should read "Channel EQ Plugin Group" 
 * Send: "Bus 1" as value, "Send" as label, "group" as role. Then it'll read "bus 1 send group". 
 
-### Send
-In inspector, send control has the word "button" in label, so it says "button" twice once from label again from role type. It says "send button button." 
- 
