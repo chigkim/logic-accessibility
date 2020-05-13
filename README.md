@@ -69,7 +69,7 @@ In EXS24, VO users were able to edit zones, group, and many properties in edit w
 It's being investigated by VO users, but at least it's not easily found how to do it.
 If there's no way to do that now, it would be great to be able to do it similar to EXS24 in future updates. 
  
-### Suggestions
+## Suggestions
 ---
 ### Record enable
 When you press control+r, VO just says "toggle track record enable". It would be nice to say on or off status just like how VO now announces mute and solo status when pressing m or s. 
