@@ -1,4 +1,3 @@
-# logic-accessibility
 Here are accessibility issues for VoiceOver users.
 
 Version: Logic Pro X 10.5
