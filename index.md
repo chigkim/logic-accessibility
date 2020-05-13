@@ -12,12 +12,14 @@ Version: Logic Pro X 10.5
 ### Record enable in track header 
 When you check record enable for an audio track, VO (Voice Over) reports the status as checked only when the indicator is flashing.
 
-This causes VO to report sometimes checked sometimes not checked even though the track is record enabled.
+This causes VO to report sometimes checked sometimes unchecked even though the track is record enabled.
 
-If it's enabled, VO should report as checked all time.
+If it's record enabled enabled, VO should report as checked all time.
 
 ### Channel strip type 
-In mixer, tracks header, inspector, VO can't tell if it's an instrument, aux, audio, and so on until you actually interact with the track and investigate the contents inside. 
+In mixer, tracks header, inspector, VO can't tell if it's an instrument, aux, audio, and so on until you actually interact with the track and investigate the contents inside.
+
+VO users should be able to quickly go through mixer/tracks and hear the type of channel strip along with their names.
 
 ### Bypass 
 When a plugin is activated, VO says "Bypass unchecked" in inspector and mixer, but it says "Bypass checked" in the plugin window. 
