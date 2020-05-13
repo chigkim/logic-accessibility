@@ -9,6 +9,7 @@ Version: Logic Pro X 10.5
 ---
 
 ## Bugs
+
 ### Record enable in track header 
 When you check record enable for an audio track, VO (Voice Over) reports the status as checked only when the indicator is flashing.
 
@@ -106,6 +107,7 @@ It's is crutial to let VO users to quickly locate specific parameter by searchin
 ---
 
 ## Suggestions
+
 ### Record enable
 When you press control+r, VO just says "toggle track record enable".
 
