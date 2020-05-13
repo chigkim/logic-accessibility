@@ -2,7 +2,7 @@ Below you can find known accessibility issues on Logic for VoiceOver users.
 
 This webpage is not associated with Apple any way. This is simply to track of issues that VoiceOver users discover while using Logic Pro.
 
-If you find more issues, please [submit an issue](https://github.com/chigkim/logic-accessibility/issues), and it will be added to the list when verified.
+If you find more issues, please [Comment below](#commento). We'll verify and add it to the list.
 
 
 Version: Logic Pro X 10.5
