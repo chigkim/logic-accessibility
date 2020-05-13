@@ -89,7 +89,7 @@ If there's no way to do that now, it would be great to be able to do it similar 
 ### Send
 In inspector, send control has the word "button" in label, so it says "button" twice once from label again from role type. It says "send button button." 
   
- ### Group
+### Group
 In both mixer and inspector, group control always has the word "Off" even though assigned group is on.
 
 When a track has no group assigned, it says "off group group" in inspector.
