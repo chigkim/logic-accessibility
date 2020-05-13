@@ -112,11 +112,13 @@ It would be nice to say on or off status just like how VO now announces mute and
 When pressing control+i to toggle input monitor, it should announce the status like solo/mute.
 
 ### Confirm selection with audio 
-It would be good to have a key command for logic to play only the selection.
+It would be good to have a key command for logic to play to selection end.
 
 Right now shift+space plays from the selection, but you can't confirm where the selection ends by listening.
 
 You can move to selection end with control+end, but it would be nice to be able to confirm by listening the audio as well.
+
+It would great to have a key command that starts playing from current playhead, and stops at the end of selection.
 
 ### Only allow VO to edit track/region name either after pressing vo+space or interact with the name
 When VO cursor lands on a text field such as track name, the keyboard focus sometimes stays there even though you stop interact with header and go somewhere else.
