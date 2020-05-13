@@ -2,13 +2,13 @@ Below you can find known accessibility issues on Logic for VoiceOver users.
 
 This webpage is not associated with Apple any way. This is simply to track of issues that VoiceOver users discover while using Logic Pro.
 
-If you find more issues, please [comment below](#commento). We'll verify and add it to the list.
-
+If you find more issues, please [comment below](#commento). It will be added to the list when verified.
 
 Version: Logic Pro X 10.5
 
-## Bugs
 ---
+
+## Bugs
 ### Record enable in track header 
 When you check record enable for an audio track, VO (Voice Over) reports the status as checked only when the indicator is flashing.
 
@@ -103,8 +103,9 @@ For example in Archemy, VO users are forced to literally spend more than 10 minu
 
 It's is crutial to let VO users to quickly locate specific parameter by searching.
 
-## Suggestions
 ---
+
+## Suggestions
 ### Record enable
 When you press control+r, VO just says "toggle track record enable".
 
@@ -150,6 +151,8 @@ It's Same for input, send, insert, and so on.
 * Input: "Input 1" as value, "input" as label, and "popup button" as role. Then it'll say "Input 1 input popup button". 
 * Insert: "Channel eq" as value, "Plugin" as label, "group" as role. Then it should read "Channel EQ Plugin Group" 
 * Send: "Bus 1" as value, "Send" as label, "group" as role. Then it'll read "bus 1 send group". 
+
+---
 
 ## Comments
 <script defer src="https://cdn.commento.io/js/commento.js"></script>
