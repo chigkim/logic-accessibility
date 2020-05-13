@@ -1,4 +1,4 @@
-Below you can find known accessibility issues for VoiceOver users.
+Below you can find known accessibility issues on Logic for VoiceOver users.
 
 This webpage is not associated with Apple any way. This is simply to track of issues that VoiceOver users discover while using Logic Pro.
 
