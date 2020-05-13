@@ -160,7 +160,7 @@ It's Same for input, send, insert, and so on.
 
 var disqus_config = function () {
 this.page.url = 'https://chigkim.github.io/logic-accessibility/';
-this.page.identifier = '#logicaccessibility';
+this.page.identifier = '{{ page.id }}';
 };
 */
 (function() { // DON'T EDIT BELOW THIS LINE
