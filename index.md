@@ -17,9 +17,9 @@ This causes VO to report sometimes checked sometimes unchecked even though the t
 If it's record enabled enabled, VO should report as checked all time.
 
 ### Channel strip type 
-In mixer, tracks header, inspector, VO can't tell if it's an instrument, aux, audio, and so on until you actually interact with the track and investigate the contents inside.
+In mixer, tracks header, inspector, VO can't tell if it's an instrument, aux, audio, and so on.
 
-VO users should be able to quickly go through mixer/tracks and hear the type of channel strip along with their names.
+VO users should hear their names along with their types when navigating across mixer/tracks area.
 
 ### Bypass 
 When a plugin is activated, VO says "Bypass unchecked" in inspector and mixer, but it says "Bypass checked" in the plugin window. 
