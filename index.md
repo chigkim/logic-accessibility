@@ -62,7 +62,7 @@ This forces VO users to keep interacting with the slider in order to make furthe
 In midi environment window, there are many unlabeled UI elements. 
 
 ### Project start marker
-VO cannot move project start marker in the ruler. It simply appears as a button instead of slider.
+VO cannot move project start marker in the ruler. It simply appears as a button instead of a slider.
 
 ### Control Toolbar LCD display
 For punch in/out left/right locator, it has "000" front of actual value.
