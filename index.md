@@ -37,7 +37,7 @@ In track header, VO can tell you which one is groove track, but you cannot reass
 ### Selection report 
 VO cannot tell which regions/tracks are selected.
 
-In either very early logic or garage band, it used to say either "selected region name" if selected or just "region name" when not selected. 
+Similar to very early logic or garage band, it would be great if it can say "selected region name" if selected or just "region name" when not selected. 
 
 When multiple tracks are selected, it would be nice to indicate how many tracks are selected in the inspector how it does for regions.
 
