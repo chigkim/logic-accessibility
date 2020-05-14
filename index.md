@@ -15,10 +15,10 @@ When you check record enable for an audio track, VO (Voice Over) reports the sta
 
 This causes VO to report sometimes checked sometimes unchecked even though the track is record enabled.
 
-If it's record enabled, VO should report as checked all time.
+If it's record enabled, VO should always report as checked.
 
 ### Channel strip type 
-In mixer, tracks header, inspector, VO cannot tell if it is an instrument, aux, audio, and so on.
+In mixer, tracks header, and inspector, VO cannot tell if a channel strip is an instrument, aux, audio, and so on.
 
 VO users should hear their names along with their types when navigating across mixer/tracks area.
 
@@ -29,17 +29,17 @@ When a plugin is activated, VO says "Bypass unchecked" in inspector and mixer, b
 After pressing "a to show automation"  in track header, VO can get to the automation enable button only when approaching from left to right, and "show region based automation" can be reached only when VO approached from right to left. 
 
 ### Track alternative 
-VO cannot find track alternative UI element after you check track alternative from track header components. 
+VO cannot find track alternative control after you check track alternative from track header components. 
 
 ### Groove track 
-In track header, VO can tell you which one is groove track, but you cannot reassign another track as a groove track. 
+In track header, VO can tell which one is groove track, but you cannot reassign another track as the groove track. 
 
 ### Selection report 
 VO cannot tell which regions/tracks are selected.
 
-Similar to very early logic or garage band, it would be great if it can say "selected region name" if selected or just "region name" when not selected. 
+Similar to very early logic or garage band, it would be great if it says "selected region name" if selected or just "region name" when not selected. 
 
-When multiple tracks are selected, it would be nice to indicate how many tracks are selected in the inspector how it does for regions.
+Also when multiple tracks are selected, it would be nice to indicate how many tracks are selected in the track inspector same as how it appears for region inspector.
 
 ### Playhead announcement 
 It is great that VO announces the playhead location when playhead moves. However, it is very distracting to hear playhead position whenever you play/stop especially when you try to do fine audio editing such as finding syllable from vocal track, attack of instrument, and so on.
@@ -95,7 +95,7 @@ When a track has no group assigned, it says "off group group" in inspector.
 ### VoiceOver Item chooser is broken in plugin window
 When you bring up item chooser from a plugin window with control view, VO only gives few parameters instead of all parameters.
 
-For example, VO users are forced to literally spend more than 10 minutes in Alchemy to go through hundreds of items inside the table just to locate a parameter and turn off a feature in certain cases.
+For example, VO users are forced to go through hundreds of items inside the table just to locate a parameter and turn off a feature in certain cases.
 
 It is crucial to let VO users to quickly locate specific parameter by searching.
 
@@ -141,9 +141,9 @@ Now plugin window only has name of the track. It would be nice to have name of t
 Especially this would be very helpful for automation script to identify which plugin window is open. 
 
 ### General UI element description 
-Some of the controls only have value. It would be nicer if it has label as well value. 
+Some of the controls only have value. It would be nicer if it had label as well as value. 
 
-For example, if output of channel strip is assigned to a bus, it just says "bus 1 button". It would be nice to say "bus 1, output button".
+For example, if output of channel strip is assigned to a bus 1, it just says "bus 1 button". It would be nice to say "bus 1, output button".
 
 It is Same for input, send, insert, and so on. 
 
