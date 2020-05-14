@@ -116,7 +116,7 @@ It would be good to have a key command for logic to play to selection end.
 
 Right now, shift+space plays from the selection, but you cannot confirm where the selection ends by listening.
 
-You can move to selection end with control+end, but it would be nice to be able to confirm by listening the audio as well.
+You can move to selection end with control+end, but it would be nice to be able to confirm with audio as well.
 
 It would be great to have a key command that starts playing from current playhead, and stops at the end of selection.
 
