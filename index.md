@@ -107,7 +107,7 @@ Some of them (tempo, signature, and marker) have list view, but other global tra
 ### Save
 When you press command+s, VO doesn't say anything. 
 
-It would be nice if it says "save" like copy and cut.
+It would be nice if VO says "save" to confirm the action like how it does for copy and cut.
 
 ---
 
