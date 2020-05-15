@@ -99,6 +99,16 @@ For example, VO users are forced to go through hundreds of items inside the tabl
 
 It is crucial to let VO users to quickly locate specific parameter by searching.
 
+### Global tracks
+Global tracks are not accessible.
+
+Some of them (tempo, signature, and marker) have list view, but other global tracks such as arrangement have no other workaround.
+
+### Save
+When you press command+s, VO doesn't say anything. 
+
+It would be nice if it says "save" like copy and cut.
+
 ---
 
 ## Suggestions
