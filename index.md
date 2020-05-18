@@ -8,8 +8,6 @@ Version: Logic Pro X 10.5
 
 ---
 
-## Bugs
-
 ### Inconsistent status of Record enable in track header
 When you check record enable for an audio track, VO reports the status as checked depending on when the indicator is flashing. This causes VO to report sometimes checked sometimes unchecked even though the track is record enabled. If it's record enabled, VO should always report as checked.
 
@@ -31,7 +29,7 @@ In track header, VO can tell which one is groove track, but you cannot reassign 
 ### Cannot tell which tracks/regions are selected
 It would be great if it says "selected region/track name" if selected or just "region/track name" when not selected.
 
-###Cannot find track Selection Count
+### Cannot find track Selection Count
 When multiple tracks are selected, it would be nice to indicate how many tracks are selected in the track inspector same as how it appears for region inspector.
 
 ### Distracting playhead announcement
@@ -75,10 +73,6 @@ Some of them (tempo, signature, and marker) have list view, but other global tra
 
 ### When pressing command+s, VO says nothing
 VO should say "save" to confirm the action like how it does for copy and cut.
-
----
-
-## Suggestions
 
 ### When pressing control+r, it doesn't speak the status
 It should say on or off status just like how VO now announces mute and solo status when pressing m or s.
