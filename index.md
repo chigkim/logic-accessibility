@@ -65,8 +65,8 @@ In EXS24, VO users were able to edit zones, group, and many properties in edit w
 ### VO reads "send button button."
 In inspector, send control has the word "button" in label, so it says "button" twice once from label again from role type. It says "send button button."
   
-### Group Control always has the word "off" in the label
-In both mixer and inspector, group control always has the word "Off" even though assigned group is on. When a track has no group assigned, it says "off group group" in inspector.
+### Some controls always have the word "off"
+Group, VCA, Peak Meter, Volume in both mixer and inspector always have the word "Off" in the beginning.
 
 ### Cannot search all UI elements with Item chooser in plugin window
 When you bring up VO item chooser from a plugin window with control view, VO only gives few parameters instead of all parameters. For example in Alchemy, VO users are forced to go through hundreds of items inside the table just to locate a parameter and turn off a feature in certain cases. It is crucial to let VO users to quickly locate specific item by searching.
