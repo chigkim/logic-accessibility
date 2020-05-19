@@ -8,6 +8,9 @@ Version: Logic Pro X 10.5
 
 ---
 
+### When toggling Switch controls, VO announces old state
+When pressing vo+space on controls identified as switch (Mute, Solo, Record, Monitor in mixer and inspector), VO announces old state instead of new state. The checkboxes in track header don't have this problem.
+
 ### Inconsistent status of Record enable in track header
 When you check record enable for an audio track, VO reports the status as checked depending on when the indicator is flashing. This causes VO to report sometimes checked sometimes unchecked even though the track is record enabled. If it's record enabled, VO should always report as checked.
 
