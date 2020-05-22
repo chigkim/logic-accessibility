@@ -86,11 +86,11 @@ It should announce the on/off status like solo/mute.
 ### Cannot confirm selection with audio
 There should be a key command for logic to play to selection end. Sshift+space plays from the selection, but you cannot confirm where the selection ends by listening. You can move to selection end with control+end, but it would be nice to be able to confirm with audio as well.
 
-### Should only allow VO to edit track/region name either after pressing vo+space or interact with the name
-When VO cursor lands on a text field such as track name, the keyboard focus sometimes stays there even though you stop interact with header and go somewhere else. This causes users to edit the name when pressing x to open mixer, e for open editor, and so on. You can easily end up with track name xe by mistake.
+### Keyboard Focus gets stuck on text edit fields
+When VO cursor lands on a text field such as track/region name, the keyboard focus sometimes stays there even though you stop interact and go somewhere else. This causes users to edit the name when pressing x to open mixer, e for open editor, and so on. You can easily end up with track name xe by mistake.
 
 ### Minimize keyboard interaction to trigger a loop cell
-Now, you have to interact with a cell and press play in order to trigger the cell. Playing live loop requires time sensitive interaction, so minimizing number of keyboard interaction is crucial.
+Now, you have to interact with a cell/scene and press play/trigger in order to trigger the cell. Playing live loop requires time sensitive interaction, so minimizing number of keyboard interaction is crucial.
 
 ### Live loop Cell should indicates playing status
 Now cell says "selected looping, play/stop", and you have to interact with it in order to check it's playback status. It would be nice to be able to tell if a cell is playing or not without interacting with it.
