@@ -8,44 +8,58 @@ Version: Logic Pro X 10.5
 
 ---
 
-### When toggling Switch controls, VO announces old state
-When pressing vo+space on controls identified as switch (Mute, Solo, Record, Monitor in mixer and inspector), VO announces old state instead of new state. The checkboxes in track header don't have this problem.
-
 ### Inconsistent status of Record enable in track header
 When you check record enable for an audio track, VO reports the status as checked depending on when the indicator is flashing. This causes VO to report sometimes checked sometimes unchecked even though the track is record enabled. If it's record enabled, VO should always report as checked.
 
 ### Cannot distinguish channel strip type
 In mixer, tracks header, and inspector, VO cannot tell if a channel strip is an instrument, aux, audio, and so on. VO users should hear their names along with their types when navigating across mixer/tracks area.
 
+### You can only adjust by an extremely small amount for some plugin parameters.
+This behavior varies from plugin to plugin, but you can frequently encounter in third party plugins. For example, slide might adjust only 0.1% at a time. This means you have to press vo+right 1,000 times to adjust from 0 to 100.
+
+VoiceOver has two commands to adjust sliders: regular (vo+right/left) and finer (vo+shift+left/right). It would be great to be able to adjust 1% at a time with regular adjustment command, an 0.1% with finer adjustment command. Then you can hold down vo+right to go from 0 to 100 in 10 seconds instead of waiting 100 seconds.
+
 ### Inconsistent plugin bypass status
-When a plugin is active, VO says "Bypass unchecked" in inspector and mixer, but it says "Bypass checked" in the plugin window.
+When a plugin is active, VO correctly reports "Bypass unchecked" in inspector and mixer, but it says "Bypass checked" in the plugin window.
 
-### Cannot locate automation control consistently
-After pressing "a to show automation"  in track header, VO can get to the automation enable button only when approaching from left to right, and "show region based automation" can be reached only when VO approached from right to left.
-
-### Track alternative control is not visible to VO
-VO cannot find track alternative control after you check track alternative from track header components.
-
-### Cannot assign a track as a groove track
-In track header, VO can tell which one is groove track, but you cannot reassign another track as the groove track with VO.
+### Cannot search all UI elements with Item chooser in plugin window
+When you bring up VO item chooser from a plugin window with control view, VO only gives few parameters instead of all parameters. For example in Alchemy, VO users are forced to go through hundreds of items inside the table just to locate a parameter and turn off a feature in certain cases. It is crucial to let VO users to quickly locate specific item by searching.
 
 ### Cannot tell which tracks/regions are selected
-It would be great if it says "selected region/track name" if selected or just "region/track name" when not selected.
-
-### Cannot find track Selection Count
-When multiple tracks are selected, it would be nice to indicate how many tracks are selected in the track inspector same as how it appears for region inspector.
+It would be great if it says "selected region/track name" if selected or just "region/track name" when not selected. Also it would be great to be able to toggle the selection by simply pressing vo+space on region/track.
 
 ### Distracting playhead announcement
-It is great to announce the playhead location when playhead moves. However, it is very distracting to hear playhead position whenever you play/stop especially when you try to do fine audio editing such as finding syllable from vocal track, attack of instrument, and so on. It makes it hard to pinpoint exact audio spot when VO keeps chattering playhead position against audio playback. It should announce the position when it stops, but not when it starts playing.
+It is great to announce the playhead location when playhead moves. However, it is very distracting to hear playhead position whenever you play/stop especially when you try to do fine audio editing such as finding syllable from vocal track, attack of instrument, and so on. It makes it hard to pinpoint exact audio spot when VO keeps chattering playhead position against audio playback. It should announce the position when it stops, but not when it starts playing. Perhaps it could be a setting that you can toggle in preference > general > accessibility.
 
-### Can't edit flex pitch/time markers
-Even though we can enable flex time/pitch and apply to a track. VO users have very limited capability of editing them. It would be nice to have key commands to move to next/previous, nudge, create, and delete flex marker with keyboard.
+### Can't adjust key limit and velocity limit in inspector.
+Once you interact with a slider, VO indicates there are two segments for lower and upper limits. However, you can't adjust them independently.
 
 ### VO Cursor gets bootted out of position Column in event list
 Whenever you change position column of an event in event list, VO cursor get booted out of the control. This forces VO users to keep interacting with the slider in order to make further adjustment.
 
+### Cannot edit zones in Multisampler
+In EXS24, VO users were able to edit zones, group, and many properties in edit window. However, it's not possible with VoiceOver in Multisampler.
+
 ### Cannot access midi environment
-In midi environment window, there are many unlabeled UI elements.
+In midi environment window, there are many unlabeled UI elements inside environment contents group.
+
+### Can't edit flex pitch/time markers
+Even though we can enable flex time/pitch and apply to a track. VO users have very limited capability of editing them. It would be nice to have key commands to move to next/previous, nudge, create, and delete flex marker with keyboard.
+
+### Cannot confirm selection with audio
+There should be a key command for logic to play to selection end and stop. Sshift+space plays from the selection, but you cannot confirm where the selection ends by listening. You can move to selection end with control+end, but it would be nice to be able to confirm with audio as well.
+
+### Cannot access global tracks
+Some of them (tempo, signature, and marker) have list view, but other global tracks such as arrangement have no other workaround.
+
+### When toggling Switch controls, VO announces old state
+When pressing vo+space on controls identified as switch (Mute, Solo, Record, Monitor in mixer and inspector), VO announces old state instead of new state. The checkboxes in track header don't have this problem.
+
+### Cannot locate automation control consistently
+After pressing "a to show automation"  in track header, VO can get to the automation enable button only when approaching from left to right, and "show region based automation" can be reached only when VO approached from right to left.
+
+### Cannot find track Selection Count
+When multiple tracks are selected, it would be nice to indicate how many tracks are selected in the track inspector same as how it appears for region inspector.
 
 ### Cannot adjust project start marker
 VO cannot adjust project start marker in the ruler. It simply appears as a button instead of a slider.
@@ -59,32 +73,17 @@ Performance meter in LCD display is not accessible when you check it from custom
 ### Wrong announcement in HMS Playhead in Control Toolbar
 When you change hour/minute/second of playhead in control toolbar LCD display with VO cursor, it sometimes reads MBT position instead of HMS. Logic wants to announce MBT as playhead moves, and VO wants to announce the value of the slider. Two announcements are fighting each other.
 
-### Cannot edit zones in Multisampler
-In EXS24, VO users were able to edit zones, group, and many properties in edit window. However, it's not possible with VoiceOver in Multisampler.
-
 ### VO reads "send button button."
 In inspector, send control has the word "button" in label, so it says "button" twice once from label again from role type. It says "send button button."
   
 ### Some controls always have the word "off"
-Group, VCA, Peak Meter, Volume in both mixer and inspector always have the word "Off" in the beginning.
-
-### Cannot search all UI elements with Item chooser in plugin window
-When you bring up VO item chooser from a plugin window with control view, VO only gives few parameters instead of all parameters. For example in Alchemy, VO users are forced to go through hundreds of items inside the table just to locate a parameter and turn off a feature in certain cases. It is crucial to let VO users to quickly locate specific item by searching.
-
-### Cannot access global tracks
-Some of them (tempo, signature, and marker) have list view, but other global tracks such as arrangement have no other workaround.
+Group, VCA, Volume in both mixer and inspector always have the word "Off" in the beginning.
 
 ### When pressing command+s, VO says nothing
 VO should say "save" to confirm the action like how it does for copy and cut.
-
-### When pressing control+r, it doesn't speak the status
-It should say on or off status just like how VO now announces mute and solo status when pressing m or s.
  
 ### When pressing control+i to toggle input monitor, VO says nothing
 It should announce the on/off status like solo/mute.
-
-### Cannot confirm selection with audio
-There should be a key command for logic to play to selection end. Sshift+space plays from the selection, but you cannot confirm where the selection ends by listening. You can move to selection end with control+end, but it would be nice to be able to confirm with audio as well.
 
 ### Keyboard Focus gets stuck on text edit fields
 When VO cursor lands on a text field such as track/region name, the keyboard focus sometimes stays there even though you stop interact and go somewhere else. This causes users to edit the name when pressing x to open mixer, e for open editor, and so on. You can easily end up with track name xe by mistake.
@@ -100,6 +99,19 @@ Plugin window only has name of the track. It would be nice to have name of the p
 
 ### Input, plugin, send, output should have clearer label
 Some of the controls only have value. It would be nicer if it had label as well as value. For example, if output of channel strip is assigned to a bus 1, it just says "bus 1 button". It would be nice to say "bus 1, output button". It is Same for input, send, insert, and so on. If assign "input 1" as value, "input" as label, and "popup button" as role, it should say "Input 1 input popup button". If assign "Channel eq" as value, "Plugin" as label, "group" as role. Then it should say "Channel EQ Plugin Group". If assign "Bus 1" as value, "Send" as label, "group" as role, it should say "bus 1 send group".
+
+---
+
+## Fixed
+
+### Track alternative control is not visible to VO
+VO cannot find track alternative control after you check track alternative from track header components.
+
+### Cannot assign a track as a groove track
+In track header, VO can tell which one is groove track, but you cannot reassign another track as the groove track with VO.
+
+### When pressing control+r, it doesn't speak the status
+It should say on or off status just like how VO now announces mute and solo status when pressing m or s.
 
 ---
 
