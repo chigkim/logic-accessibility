@@ -4,12 +4,15 @@ This webpage is not associated with Apple any way. This is simply to track of is
 
 If you find more issues, please [comment below](#disqus_thread). It will be added to the list when verified.
 
-Version: Logic Pro X 10.5
+Version: Logic Pro X 10.7
 
 ---
 
 ### Inconsistent status of Record enable in track header
 When you check record enable for an audio track, VO reports the status as checked depending on when the indicator is flashing. This causes VO to report sometimes checked sometimes unchecked even though the track is record enabled. If it's record enabled, VO should always report as checked.
+
+### Can't bring up track alternative popup menu after creating a new alternative
+If you 1) press VO+space on track alternative and choose new, 2) go back and press vo+space on the track alternative, it does not bring up the popup menu anymore.
 
 ### Cannot distinguish channel strip type
 In mixer, tracks header, and inspector, VO cannot tell if a channel strip is an instrument, aux, audio, and so on. VO users should hear their names along with their types when navigating across mixer/tracks area.
@@ -20,19 +23,19 @@ This behavior varies from plugin to plugin, but you can frequently encounter in 
 VoiceOver has two commands to adjust sliders: regular (vo+right/left) and finer (vo+shift+left/right). It would be great to be able to adjust 1% at a time with regular adjustment command, an 0.1% with finer adjustment command. Then you can hold down vo+right to go from 0 to 100 in 10 seconds instead of waiting 100 seconds.
 
 ### Inconsistent plugin bypass status
-When a plugin is active, VO correctly reports "Bypass unchecked" in inspector and mixer, but it says "Bypass checked" in the plugin window.
+When a plugin is active, VO correctly reports "Bypass unchecked" in inspector, but it says "Bypass checked" in the plugin window. In the mixer the status always says checked even if it's unchecked.
 
 ### Cannot search all UI elements with Item chooser in plugin window
-When you bring up VO item chooser from a plugin window with control view, VO only gives few parameters instead of all parameters. For example in Alchemy, VO users are forced to go through hundreds of items inside the table just to locate a parameter and turn off a feature in certain cases. It is crucial to let VO users to quickly locate specific item by searching.
+When you open a plugin with many parameters such as Alchemy and switch a plugin window to control view, you cannot find all the parameters with vo+f. Also item chooser vo+i does not display all the parameters. Also, the item chooser takes extremely long when opening inside a plugin with many parameters. VO users are forced to go through hundreds of items inside the table just to locate a parameter and turn off a feature in certain cases. It is crucial to let VO users to quickly locate specific item by searching. 
 
 ### Cannot tell which tracks/regions are selected
 It would be great if it says "selected region/track name" if selected or just "region/track name" when not selected. Also it would be great to be able to toggle the selection by simply pressing vo+space on region/track.
 
 ### Distracting playhead announcement
-It is great to announce the playhead location when playhead moves. However, it is very distracting to hear playhead position whenever you play/stop especially when you try to do fine audio editing such as finding syllable from vocal track, attack of instrument, and so on. It makes it hard to pinpoint exact audio spot when VO keeps chattering playhead position against audio playback. It should announce the position when it stops, but not when it starts playing. Perhaps it could be a setting that you can toggle in preference > general > accessibility.
+It is great to announce the playhead location when you move the playhead with key commands like rewind/fast forward. However, it is very distracting to hear playhead position whenever you play/stop especially when you try to do fine audio editing such as finding syllable from vocal track, attack of instrument, and so on. It makes it hard to pinpoint exact audio spot when VO keeps chattering playhead position against audio playback. Perhaps it could be a setting that you can toggle in preference > general > accessibility to mute playhead announcement when play/pause/stop.
 
 ### Can't adjust key limit and velocity limit in inspector.
-Once you interact with a slider, VO indicates there are two segments for lower and upper limits. However, you can't adjust them independently.
+Once you interact with a slider, VO can only change the lower limit. There should be two seperat sliders for lower and upper limit.
 
 ### VO Cursor gets bootted out of position Column in event list
 Whenever you change position column of an event in event list, VO cursor get booted out of the control. This forces VO users to keep interacting with the slider in order to make further adjustment.
@@ -51,9 +54,6 @@ There should be a key command for logic to play to selection end and stop. Sshif
 
 ### Cannot access global tracks
 Some of them (tempo, signature, and marker) have list view, but other global tracks such as arrangement have no other workaround.
-
-### When toggling Switch controls, VO announces old state
-When pressing vo+space on controls identified as switch (Mute, Solo, Record, Monitor in mixer and inspector), VO announces old state instead of new state. The checkboxes in track header don't have this problem.
 
 ### Cannot locate automation control consistently
 After pressing "a to show automation"  in track header, VO can get to the automation enable button only when approaching from left to right, and "show region based automation" can be reached only when VO approached from right to left.
@@ -112,6 +112,10 @@ In track header, VO can tell which one is groove track, but you cannot reassign 
 
 ### When pressing control+r, it doesn't speak the status
 It should say on or off status just like how VO now announces mute and solo status when pressing m or s.
+
+### When toggling Switch controls, VO announces old state
+When pressing vo+space on controls identified as switch (Mute, Solo, Record, Monitor in mixer and inspector), VO announces old state instead of new state. The checkboxes in track header don't have this problem. It now reports as on off switch instead of checkbox.
+
 
 ---
 
